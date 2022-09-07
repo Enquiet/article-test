@@ -11,7 +11,6 @@ const actions = {
       commit('GET_ARTICLE_LIST', list );
       // После мутации загружаем сохарненые реакции
       // либо в компаненте пользоваться $nextTick
-      console.log(1);
       dispatch('loadSaveReaction')
     } catch (e) {
       console.log(e)
