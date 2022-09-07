@@ -20,7 +20,7 @@
       <ReactionsList :article-id="articleData.id"  class="article-page__reactions-list"/>
     </div>
     <div class="article-page__decription">
-      {{ articleData.info }}
+      {{ articleData.description }}
     </div>
     <RouterLink
       :to="'/'"
